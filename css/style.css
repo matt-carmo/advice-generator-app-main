@@ -44,10 +44,9 @@ section {
 .text {
   font-size: 1.8rem;
 }
-.icon-2 {
-  position: absolute;
-  margin: 0 auto;
-    
+.icon-2 svg{
+  position: relative;
+  bottom: -65px;
   width: 24px;
   height: 24px;
   background: #52ffa8;
@@ -56,7 +55,10 @@ section {
   cursor: pointer;
 
  }
- .icon-2:hover {
+
+
+
+ .icon-2 svg:hover {
   box-shadow: var(--NeonGreen) 0px 0 10px 1rem;
  }
  .icon-mobile {
@@ -74,6 +76,7 @@ section {
   }
   .icon-mobile {
     display: block;
+    
   }
   .icon {
     display: none;
