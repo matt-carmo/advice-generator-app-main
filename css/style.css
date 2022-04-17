@@ -67,7 +67,7 @@ section {
  {
   main {
     width: 90vw;
-    
+    padding:3rem 0;
   }
   .icon-mobile {
     display: block;
