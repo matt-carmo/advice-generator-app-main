@@ -1,0 +1,83 @@
+:root {
+--LightCyan: #cee3e9;
+--NeonGreen: #52ffa8;
+--Maonrope: 'Manrope', sans-serif;
+/*###Neutral*/
+--Grayish-Blue:#4e5d73;
+--DarkGrayishBlue: #323a49;
+--DarkBlue: #1f2632;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--Maonrope);
+  background-color: var(--DarkBlue);
+  color: var(--LightCyan);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background: var(--DarkGrayishBlue);
+  border-radius: 10px;
+  padding: 3rem;
+  width: 600px;
+  text-align:center;
+  position: relative;
+  z-index: 0;
+}
+section {
+  margin: 1.2rem ;
+  
+}
+.advice {
+  font-size: 0.6rem;
+  letter-spacing: 0.2rem;
+  color: var(--NeonGreen);
+  text-transform: uppercase;
+}
+.text {
+  font-size: 1.8rem;
+}
+.icon-2 {
+  position: relative;
+  left: 48%;
+  bottom: -60px;  
+  width: 24px;
+  height: 24px;
+  background: #52ffa8;
+  border-radius: 50%;
+  box-shadow:0 0 0px 15px var(--NeonGreen);
+  cursor: pointer;
+
+ }
+ .icon-2:hover {
+  box-shadow: var(--NeonGreen) 0px 0 10px 1rem;
+ }
+ .icon-mobile {
+  display: none;
+}
+
+ @media (max-width: 700px)
+ {
+  main {
+    width: 90vw;
+  }
+  .icon-mobile {
+    display: block;
+  }
+  .icon {
+    display: none;
+  }
+ }
+footer {
+  font-size: 11px; text-align: center; 
+  position: absolute;
+  bottom: 1px;  
+}
+footer a { color: #3e52a3; }
