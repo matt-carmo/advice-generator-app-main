@@ -4,7 +4,7 @@ const icon2 = document.querySelector('.icon-2')
 url = 'https://api.adviceslip.com/advice'
 
 
-getUser = ()=>{
+getUser = ()=> {
   axios.get(url)
   .then(response => {
     const data = response.data

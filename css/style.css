@@ -43,17 +43,22 @@ section {
 .text {
   font-size: 1.8rem;
 }
+.icon-2 {
+  cursor: pointer;
+}
 .icon-2 svg{
-  
-
   background: #52ffa8;
 
-  cursor: pointer;
+ }
+ .id {
+   letter-spacing: 0px;
  }
  .effect {
    position: relative;
    margin: 0 auto;
-   bottom: -65px;
+   bottom: -60px;
+   
+   
    width: 24px;
    height: 24px;
    border-radius: 50%;
